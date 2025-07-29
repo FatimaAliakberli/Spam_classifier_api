@@ -15,7 +15,7 @@ except:
     nlp = spacy.load("en_core_web_sm")
 
 # Load your trained model
-model = joblib.load("data/spam_classifier.pkl")
+model = joblib.load("spam_classifier.pkl")
 
 # Preprocessing functions
 def clean_test(s):
